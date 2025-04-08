@@ -4,6 +4,7 @@ namespace LearnCSharp.Day3
 {
     public delegate void MyDelegate(string message);
     public delegate int SampleDelegate(int a, int b);
+    
     public static class Delegate
     {
         public static void HandleDelegate()
@@ -37,6 +38,8 @@ namespace LearnCSharp.Day3
                 }
             }
         }
+        
+        //The add funtion
         private static int Add(int a, int b) => a + b;
 
         private static void ShowMessageDelegate(string msg)
