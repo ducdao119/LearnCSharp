@@ -1,5 +1,7 @@
 ﻿using LearnCSharp.Day2;
 using LearnCSharp.Day3;
+using LearnCSharp.Day4;
+using LearnCSharp.Day5;
 
 namespace LearnCSharp
 {
@@ -9,7 +11,9 @@ namespace LearnCSharp
         {
             //Day1.TypeData();
             //ProgramDay2.HandleClassesVsStruct();
-            Day3.Delegate.HandleDelegate();
+            //Day3.Delegate.HandleDelegate();
+            //LinQ.HandleLinQ();
+            EventHandlerSample.EventHandlerEx();
         }
     }
 }
